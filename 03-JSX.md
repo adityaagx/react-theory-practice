@@ -165,27 +165,30 @@ return (
 ## 16.
 Can JSX exist outside a JavaScript function?
 
----
+--- JSX must be inside JavaScript code (like inside a component or assigned to a variable).
+It cannot just exist randomly in a file like pure HTML.
 
 ## 17.
 In a React application, where is JSX usually returned from?
 
----
+--- A component.
 
 ## 18.
 If we did not use JSX, what would we need to write instead?
 
----
+--- React.createElement()
 
 ## 19.
 How does JSX improve UI development speed?
 
----
+--- It is easier to read and update, hence easier for developers to 
+improve the development speed.
 
 ## 20.
 Explain JSX in one clear sentence.
 
----
+--- JSX is a syntax extenion of javascript, which makes code easy to write, 
+read, and debug.
 
 END
 ====================================
