@@ -94,34 +94,35 @@ What happens behind the scenes when we write JSX?
 ## 5.
 Complete the flow:
 
-JSX → Javascript → Browser
-
----
+--- JSX → Javascript → Browser
 
 ## 6.
 Why is JSX easier to read compared to plain JavaScript?
 
----
+--- JSX is like HTML only, hence easy to read.
 
 ## 7.
 Why is JSX easier to write compared to plain JavaScript?
 
----
+--- It is mostly like HTML only, that's why easy to write.
 
 ## 8.
 Inside which programming language do we write JSX?
 
----
+--- Javascript.
 
 ## 9.
 Can the browser understand JSX directly? Why or why not?
 
----
+--- No, browser doesn't understand JSX.
+Browsers only understand HTML, CSS, JS.
+It gets converted into Javascript first, then browser understands it.
 
 ## 10.
 If JSX is not HTML, why does it look like HTML?
 
----
+--- JSX looks like HTML because it is designed to resemble HTML syntax,
+ but it is actually JavaScript under the hood.
 
 ## 11.
 What is the main advantage of using JSX in React applications?
