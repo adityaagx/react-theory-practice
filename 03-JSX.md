@@ -127,17 +127,18 @@ If JSX is not HTML, why does it look like HTML?
 ## 11.
 What is the main advantage of using JSX in React applications?
 
----
+--- It makes code easy to read, write, understand, debug.
 
 ## 12.
 What is the one strict rule JSX must follow when returning UI?
 
----
+--- It must contain one parent element.
 
 ## 13.
 Why must JSX return only one parent element?
 
----
+--- Because under the hood JSX is Javascript only,
+and Javascript functions can only return one value.
 
 ## 14.
 Is this valid JSX? Explain why or why not.
@@ -147,7 +148,7 @@ return (
   <p>Welcome</p>
 );
 
----
+--- No, it is not valid, because it doesnt contain any parent element.
 
 ## 15.
 Why is this valid JSX?
@@ -159,7 +160,7 @@ return (
   </div>
 );
 
----
+--- It contains one parent element, hence valid.
 
 ## 16.
 Can JSX exist outside a JavaScript function?
