@@ -56,3 +56,134 @@ It looks like HTML but works inside JavaScript.
 ====================================
 END
 ====================================
+
+# React Theory Practice – Topic 3: JSX
+
+====================================
+TOPIC 3: JSX – THEORY QUESTIONS
+====================================
+
+## Instructions
+- Answer in your own words.
+- Do not copy from notes.
+- Keep answers clear and simple.
+- No coding required unless asked.
+
+---
+
+## 1.
+What is JSX?
+
+--- JSX is a syntax that lets you write HTML like code inside javascript.
+
+## 2.
+Is JSX the same as HTML? Explain your answer.
+
+--- No, JSX is different than HTML, HTML can't be used inside JS, but JSX can be used.
+
+## 3.
+Why was JSX introduced in React?
+
+--- To make code easy to write, read and understand.
+
+## 4.
+What happens behind the scenes when we write JSX?
+
+--- It gets converted to JS for browser understanding.
+
+## 5.
+Complete the flow:
+
+JSX → Javascript → Browser
+
+---
+
+## 6.
+Why is JSX easier to read compared to plain JavaScript?
+
+---
+
+## 7.
+Why is JSX easier to write compared to plain JavaScript?
+
+---
+
+## 8.
+Inside which programming language do we write JSX?
+
+---
+
+## 9.
+Can the browser understand JSX directly? Why or why not?
+
+---
+
+## 10.
+If JSX is not HTML, why does it look like HTML?
+
+---
+
+## 11.
+What is the main advantage of using JSX in React applications?
+
+---
+
+## 12.
+What is the one strict rule JSX must follow when returning UI?
+
+---
+
+## 13.
+Why must JSX return only one parent element?
+
+---
+
+## 14.
+Is this valid JSX? Explain why or why not.
+
+return (
+  <h1>Hello</h1>
+  <p>Welcome</p>
+);
+
+---
+
+## 15.
+Why is this valid JSX?
+
+return (
+  <div>
+    <h1>Hello</h1>
+    <p>Welcome</p>
+  </div>
+);
+
+---
+
+## 16.
+Can JSX exist outside a JavaScript function?
+
+---
+
+## 17.
+In a React application, where is JSX usually returned from?
+
+---
+
+## 18.
+If we did not use JSX, what would we need to write instead?
+
+---
+
+## 19.
+How does JSX improve UI development speed?
+
+---
+
+## 20.
+Explain JSX in one clear sentence.
+
+---
+
+END
+====================================
