@@ -384,6 +384,21 @@ It should return:
 
 Render it twice inside `App`.
 
+const Section = () => {
+  return (
+    <section>Section Content</section>
+  );
+};
+
+function App(){
+  return (
+    <div>
+     <Section />
+     <Section />
+    </div>
+  );
+};
+
 ---
 
 ## 19.
@@ -392,6 +407,21 @@ It should return:
 <button>Click Me</button>
 
 Render it two times inside `App`.
+
+const ButtonText = () => {
+  return (
+    <button>Click Me</button>
+  );
+};
+
+function App(){
+  return (
+    <div>
+     <ButtonText />
+     <ButtonText />
+    </div>
+  );
+};
 
 ---
 
@@ -406,3 +436,45 @@ Create five different components:
 Each should return different text.
 
 Render all five inside `App`.
+
+const One = () => {
+  return (
+    <h3>One</h1>
+  );
+};
+
+const Two = () => {
+  return (
+    <h3>Two</h3>
+  );
+};
+
+const Three = () => {
+  return (
+    <h3>Three</h3>
+  );
+};
+
+const Four = () => {
+  return (
+    <h3>Four</h3>
+  );
+};
+
+const Five = () => {
+  return (
+    <h3>Five</h3>
+  );
+};
+
+function App(){
+  return (
+    <div>
+    <One />
+    <Two />
+    <Three />
+    <Four />
+    <Five />
+    </div>
+  );
+};
