@@ -306,6 +306,27 @@ Create three components:
 
 Render them in this order inside `App`.
 
+const Top = () => {
+  return <h1>Top</h1>;
+};
+
+const Middle = () => {
+  return <h1>Middle</h1>;
+};
+
+const Bottom = () => {
+  return <h1>Bottom</h1>;
+};
+
+function App(){
+  return (
+    <div>
+     <Top />
+     <Middle />
+     <Bottom />
+    </div>
+  );
+};
 ---
 
 ## 16.
@@ -314,6 +335,21 @@ It should return:
 <div>Card Component</div>
 
 Render it four times inside `App`.
+
+const Card = () => {
+  return <div>Card Component</div>;
+};
+
+function App(){
+  return(
+    <div>
+     <Card />
+     <Card />
+     <Card />
+     <Card />
+    </div>
+  );
+};
 
 ---
 
@@ -324,6 +360,21 @@ It should return:
 
 Use it three times inside `App`.
 
+const Notification = () => {
+  return (
+    <p>You have a new message</p>
+  );
+};
+
+function App(){
+  return (
+    <div>
+     <Notification />
+     <Notification />
+     <Notification />
+    </div>
+  )
+}
 ---
 
 ## 18.
