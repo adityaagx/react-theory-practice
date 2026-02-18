@@ -49,3 +49,140 @@ Used to customize components.
 ====================================
 END
 ====================================
+
+====================================
+PROPS PRACTICE – 20 TASKS
+====================================
+
+1. Create a component called Welcome that receives a name prop and displays:
+   Welcome, {name}
+
+   - const Welcome = ({name}) => {
+    return <h3>Welcome {name}</h3>;
+   };
+
+   function App(){
+    return (
+      <Welcome name="Aditya"/>
+    );
+   };
+
+2. Create a component called Age that receives an age prop and displays:
+   You are {age} years old.
+
+   - const Age = ({age}) => {
+    return <h3>You are {age} years old</h3>;
+   };
+
+   function App(){
+    return <Age age={21} />;
+   };
+
+3. Create a component called UserCard that receives:
+   - name
+   - city
+   Display both inside an h2 and p tag.
+
+  - const UserCard = ({name, city}) => {
+    return (
+      <div>
+       <h2>{name}</h2>
+       <p>{city}</p>
+      </div>
+    );
+   };
+
+   function App(){
+    return (
+      <UserCard name="Aditya" city="Ajmer" />
+    );
+   };
+
+4. Create a component called Product that receives:
+   - title
+   - price
+   Display them inside a div.
+
+   const Product = ({title, price}) => {
+    return (
+      <div>
+      <h3>{title} cost is {price} rupees.</h3>
+      </div>
+    );
+   };
+
+   function App(){
+    return (
+      <Product title="Macbook" price="80k">
+    );
+   };
+
+5. Create a component called Message that receives a text prop
+   and renders it inside a paragraph.
+
+
+
+6. Create a component called Button that receives a label prop
+   and displays it inside a button element.
+
+7. Create a component called Avatar that receives an imageUrl prop
+   and uses it inside an img tag.
+
+8. Create a component called Student that receives:
+   - name
+   - grade
+   Show both values in separate elements.
+
+9. Create a component called Greeting that receives:
+   - firstName
+   - lastName
+   Display full name together.
+
+10. Create a component called Status that receives a status prop
+    and displays:
+    Status: {status}
+
+11. Create a component called Book that receives:
+    - title
+    - author
+    Render both clearly.
+
+12. Create a component called PriceTag that receives a price prop
+    and displays:
+    $ {price}
+
+13. Create a component called Profile that receives:
+    - username
+    - bio
+    Show them inside a div.
+
+14. Create a component called Country that receives a country prop
+    and displays:
+    Country: {country}
+
+15. Create a component called Score that receives a score prop
+    and displays:
+    Your score is {score}
+
+16. Create a component called Header that receives a title prop
+    and renders it inside an h1.
+
+17. Create a component called Car that receives:
+    - brand
+    - model
+    Display: {brand} {model}
+
+18. Create a component called Email that receives an email prop
+    and displays it inside a paragraph.
+
+19. Create a component called Item that receives a name prop
+    and render it inside a list item (li).
+
+20. Create a component called Card that receives:
+    - heading
+    - description
+    Render both properly structured.
+
+====================================
+END
+====================================
