@@ -301,13 +301,42 @@ PROPS PRACTICE – 20 TASKS
 18. Create a component called Email that receives an email prop
     and displays it inside a paragraph.
 
+    const Email = ({email}) => {
+      return <p>{email}</p>
+    };
+
+    function App(){
+      return <Email email="aditya123" />
+    };
+
 19. Create a component called Item that receives a name prop
     and render it inside a list item (li).
+
+    const Item = ({name}) => {
+      return <li>{name}</li>
+    };
+
+    function App(){
+      return <Item name="Macbook" />
+    };
 
 20. Create a component called Card that receives:
     - heading
     - description
     Render both properly structured.
+
+    const Card = ({heading, description}) => {
+      return (
+        <div>
+         <h1>{heading}</h1>
+         <p>{description}</p>
+        </div>
+      );
+    };
+
+    function App(){
+      return <Card heading="Happy Anniversary" description="blah blah blah" />
+    };
 
 ====================================
 END
